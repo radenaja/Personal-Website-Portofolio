@@ -3,6 +3,6 @@ import vue from '@vitejs/plugin-vue'
 
 export default defineConfig({
   plugins: [vue()],
-  base: '/raden-portfolio/',
+  base: '/Personal-Website-Portofolio/',
   publicDir: 'public',
 })
