@@ -27,7 +27,7 @@ const defaultProfile = {
   location: 'Pondok Aren, Tangerang Selatan',
   github: 'https://github.com/radenaja',
   linkedin: 'https://www.linkedin.com/in/raden-aradeya-risqi-jagat-pertala-204800218/',
-  cvUrl: '/raden-portfolio/cv-raden-aradeya-risqi-jagat-pertala.pdf',
+  cvUrl: '/Personal-Website-Portofolio/cv-raden-aradeya-risqi-jagat-pertala.pdf',
   personalDrive: 'https://drive.google.com/drive/folders/18_eGJa7GHOB9fVTeqIGQfMrju5muNQUW',
 }
 

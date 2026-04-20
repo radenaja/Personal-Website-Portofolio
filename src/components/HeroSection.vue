@@ -75,7 +75,7 @@
         <div class="hero-ctas">
           <a href="#projects" class="btn-pixel">VIEW QUESTS</a>
           <a href="#contact" class="btn-pixel crimson">CONTACT ME</a>
-          <a :href="profile.cvUrl" target="_blank" download="CV_Raden_Aradeya.pdf" class="btn-pixel" style="color:var(--accent-gold);border-color:var(--accent-gold)">DOWNLOAD CV</a>
+          <a :href="profile.cvUrl" target="_blank" download="CV_Raden_Aradeya_Risqi_Jagat_Pertala.pdf" class="btn-pixel" style="color:var(--accent-gold);border-color:var(--accent-gold)">DOWNLOAD CV</a>
         </div>
       </div>
     </div>
@@ -152,11 +152,11 @@
           <div class="form-field">
             <label>CV / Resume</label>
             <div class="cv-manager">
-              <input v-model="editForm.cvUrl" placeholder="https://drive.google.com/... atau /raden-portfolio/cv-raden-aradeya-risqi-jagat-pertala.pdf" />
-              <div class="photo-hint">CV kamu sudah ada di <strong style="color:var(--accent-teal)">/raden-portfolio/cv-raden-aradeya-risqi-jagat-pertala.pdf</strong>. Isi field ini hanya kalau mau ganti ke URL lain (misal Google Drive).</div>
+              <input v-model="editForm.cvUrl" placeholder="https://drive.google.com/... atau /Personal-Website-Portofolio/cv-raden-aradeya-risqi-jagat-pertala.pdf" />
+              <div class="photo-hint">CV kamu sudah ada di <strong style="color:var(--accent-teal)">/Personal-Website-Portofolio/cv-raden-aradeya-risqi-jagat-pertala.pdf</strong>. Isi field ini hanya kalau mau ganti ke URL lain (misal Google Drive).</div>
               <div class="cv-actions">
                 <a :href="editForm.cvUrl" target="_blank" class="cv-preview-btn" v-if="editForm.cvUrl">PREVIEW CV ↗</a>
-                <button class="cv-reset-btn" @click="editForm.cvUrl = '/raden-portfolio/cv-raden-aradeya-risqi-jagat-pertala.pdf'" type="button">RESET KE DEFAULT</button>
+                <button class="cv-reset-btn" @click="editForm.cvUrl = '/Personal-Website-Portofolio/cv-raden-aradeya-risqi-jagat-pertala.pdf'" type="button">RESET KE DEFAULT</button>
               </div>
             </div>
           </div>
