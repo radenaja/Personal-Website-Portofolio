@@ -6,7 +6,7 @@
       <div class="game-title">
         <span class="title-line1">RADEN</span>
         <span class="title-line2">PORTFOLIO</span>
-        <span class="title-sub">v2.0.25 — FULL STACK EDITION</span>
+        <span class="title-sub">v06.02.2004 — WELCOME TO THE GALAXY ✨</span>
       </div>
       <div class="loading-bar-wrap">
         <div class="loading-label">LOADING SYSTEMS...</div>
@@ -19,7 +19,7 @@
         <span class="log-line" v-for="(line, i) in visibleLogs" :key="i">{{ line }}</span>
       </div>
       <div class="press-start" v-if="progress >= 100">
-        <span>[ PRESS ANY KEY TO CONTINUE ]</span>
+        <span>[PRESS ANY KEY TO CONTINUE]</span>
       </div>
     </div>
   </div>
