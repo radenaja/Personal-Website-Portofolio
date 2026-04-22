@@ -84,8 +84,8 @@
       </div>
     </div>
     <div class="footer">
-      <span>RADEN — FULL STACK DEVELOPER</span>
-      <span class="footer-copy">© {{ new Date().getFullYear() }} — Built with Vue.js + Vite</span>
+      <span>RADEN ARADEYA RISQI JAGAT PERTALA</span>
+      <span class="footer-copy">© {{ new Date().getFullYear() }} — Built with Love</span>
     </div>
   </section>
 
