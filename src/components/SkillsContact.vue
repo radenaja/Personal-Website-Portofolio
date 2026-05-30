@@ -51,7 +51,7 @@
       <h2 class="section-title">CONTACT</h2>
       <div class="contact-wrap">
         <div class="contact-left">
-          <p class="contact-intro">Tertarik untuk berkolaborasi atau ada posisi yang cocok?<br>Kirim pesan — aku akan balas secepatnya.</p>
+          <p class="contact-intro">Interested in collaborating or have a suitable position?<br>Send a message — I'll get back to you as soon as possible.</p>
           <div class="contact-links">
             <a class="contact-link" :href="'mailto:' + profile.email"><span class="link-icon">@</span><span>{{ profile.email }}</span></a>
             <a class="contact-link" :href="'tel:' + profile.phone"><span class="link-icon">☎</span><span>{{ profile.phone }}</span></a>
@@ -141,7 +141,7 @@
     <div class="modal-box pixel-border" style="max-width:380px;text-align:center">
       <div class="modal-type" style="color:#dc2626">WARNING</div>
       <h2 class="modal-title" style="margin-bottom:1rem">Delete Category?</h2>
-      <p style="font-size:13px;color:#9d8fc0;margin-bottom:2rem">Semua skill di "{{ deleteCatTarget?.name }}" akan ikut terhapus.</p>
+      <p style="font-size:13px;color:#9d8fc0;margin-bottom:2rem">All skills in "{{ deleteCatTarget?.name }}" will also be deleted.</p>
       <div style="display:flex;gap:12px;justify-content:center">
         <button class="btn-pixel crimson" @click="doDeleteCategory">DELETE</button>
         <button class="btn-pixel" @click="deleteCatTarget = null">CANCEL</button>
@@ -234,7 +234,6 @@ const sendBtnStyle = computed(() => {
       transition: 'all 0.15s ease',
     }
   }
-  // Default / hover state
   return {
     width: '100%',
     fontFamily: "'Press Start 2P', monospace",
@@ -251,7 +250,7 @@ const sendBtnStyle = computed(() => {
 
 async function sendMessage() {
   if (!form.value.name || !form.value.message) return
-  if (!form.value.email) { sendError.value = 'Email wajib diisi.'; return }
+  if (!form.value.email) { sendError.value = 'Email is required.'; return }
   sending.value = true
   sendError.value = ''
   try {
@@ -268,7 +267,7 @@ async function sendMessage() {
     form.value = { name:'', email:'', message:'' }
     setTimeout(() => { sent.value = false }, 4000)
   } catch(err) {
-    sendError.value = 'Gagal kirim pesan. Coba lagi ya!'
+    sendError.value = 'Failed to send message. Please try again!'
     console.error('EmailJS error:', err)
   } finally {
     sending.value = false
@@ -402,5 +401,21 @@ function submitCategory() {
   .form-row label { font-size: 7px; }
   .form-row input, .form-row textarea { font-size: 13px; padding: 8px 10px; }
   .modal-box { padding: 1.2rem; max-width: 100%; }
+}
+
+.send-error {
+  font-family: 'Share Tech Mono', monospace;
+  font-size: 11px; color: var(--accent-crimson);
+  padding: 8px 10px; margin-bottom: 8px;
+  background: rgba(220,38,38,0.1);
+  border: 1px solid rgba(220,38,38,0.3);
+}
+.send-btn-custom {
+  display: block;
+  text-align: center;
+}
+.send-btn-custom:hover:not(:disabled) {
+  filter: brightness(1.15);
+  transform: translateY(-1px);
 }
 </style>

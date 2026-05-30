@@ -104,7 +104,7 @@
           <div class="photos-section">
             <div class="photos-header">
               <label>Project Photos (max 10)</label>
-              <span class="photos-hint">Paste URL gambar dari imgur.com atau hosting lain · <a href="https://imgur.com" target="_blank" style="color:var(--accent-purple)">Buka imgur.com ↗</a></span>
+              <span class="photos-hint">Paste image URL from imgur.com or any image hosting · <a href="https://imgur.com" target="_blank" style="color:var(--accent-purple)">Open imgur.com ↗</a></span>
             </div>
             <div class="photo-inputs">
               <div class="photo-input-row" v-for="(url, i) in form.photos" :key="i">
@@ -117,7 +117,7 @@
               </div>
             </div>
             <button class="add-photo-btn" @click="addPhotoInput" v-if="form.photos.length < 10">+ ADD PHOTO URL</button>
-            <div class="imgur-hint">Cara upload: imgur.com → New Post → upload → klik kanan gambar → Copy image address</div>
+            <div class="imgur-hint">How to upload: imgur.com → New Post → upload image → right click image → Copy image address</div>
           </div>
 
           <button class="btn-pixel" style="width:100%;margin-top:1.5rem;font-size:10px;padding:14px" @click="submitForm">
@@ -131,7 +131,7 @@
         <div class="modal-box pixel-border" style="max-width:400px;text-align:center">
           <div class="modal-type" style="color:#dc2626">WARNING</div>
           <h2 class="modal-title" style="margin-bottom:1rem">Delete Project?</h2>
-          <p style="font-size:13px;color:#9d8fc0;margin-bottom:2rem;line-height:1.7">"{{ deleteTarget?.name }}" akan dihapus permanen.</p>
+          <p style="font-size:13px;color:#9d8fc0;margin-bottom:2rem;line-height:1.7">"{{ deleteTarget?.name }}" will be permanently deleted.</p>
           <div style="display:flex;gap:12px;justify-content:center">
             <button class="btn-pixel crimson" @click="doDelete">DELETE</button>
             <button class="btn-pixel" @click="deleteTarget = null">CANCEL</button>

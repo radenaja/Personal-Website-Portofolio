@@ -5,74 +5,74 @@ const STORAGE_KEY = 'raden_timeline_v2'
 const defaultTimeline = [
   {
     id:1, year:'2019',
-    title:'Lulus MAN 19 Jakarta',
-    desc:'Lulus dari MAN 19 Jakarta jurusan IPA. Mulai tertarik dengan teknologi dan komputer sebagai bekal untuk kuliah.',
-    tags:['Pendidikan','IPA','Jakarta']
+    title:'Graduated from MAN 19 Jakarta',
+    desc:'Graduated from MAN 19 Jakarta majoring in Natural Sciences. Developed a growing interest in technology and computers as a foundation for university studies.',
+    tags:['Education','Natural Sciences','Jakarta']
   },
   {
     id:2, year:'2022',
-    title:'Masuk Binus University',
-    desc:'Diterima di jurusan Computer Science Binus University (Sep 2022). Mulai serius belajar programming — C/C++, Java, HTML/CSS/JavaScript, SQL.',
+    title:'Enrolled at Binus University',
+    desc:'Accepted into the Computer Science program at Binus University (Sep 2022). Started seriously learning programming — C/C++, Java, HTML/CSS/JavaScript, SQL.',
     tags:['Binus','Computer Science','C/C++, Java, HTML/CSS/JavaScript, SQL']
   },
   {
     id:3, year:'2022',
     title:'Vice Head Division VRam 2022',
-    desc:'Dipilih sebagai Vice Chairperson event VRam 2022 — event besar Himpunan Mahasiswa Teknik Informatika yang melibatkan mahasiswa lintas kampus Binus. Belajar leadership dan manajemen kolaborasi tim.',
-    tags:['Leadership','VRam','Organisasi','Binus']
+    desc:'Selected as Vice Chairperson of VRam 2022 — a major event by the Informatics Engineering Student Association involving students from multiple Binus campuses. Gained experience in leadership and team collaboration management.',
+    tags:['Leadership','VRam','Organization','Binus']
   },
   {
     id:4, year:'2022',
     title:'Teach For Indonesia (TFI)',
-    desc:'Bergabung sebagai Leader of activity di Teach For Indonesia (Okt 2022 – Okt 2023). Memberikan edukasi kepada generasi muda tentang toleransi antar agama dan pentingnya ilmu pengetahuan.',
-    tags:['TFI','Leadership','Pendidikan','Komunitas']
+    desc:'Joined as Leader of Activity at Teach For Indonesia (Oct 2022 – Oct 2023). Provided education to young people on inter-religious tolerance and the importance of knowledge.',
+    tags:['TFI','Leadership','Education','Community']
   },
   {
     id:5, year:'2023',
     title:'Google Developer Student Club Malang',
-    desc:'Bergabung di GDSC Malang (Feb 2023 – Jan 2025) untuk memperdalam pengetahuan dan pengalaman, serta berkolaborasi memecahkan masalah bersama komunitas developer.',
-    tags:['GDSC','Google','Developer','Komunitas']
+    desc:'Joined GDSC Malang (Feb 2023 – Jan 2025) to deepen knowledge and experience, and to collaborate in solving problems within the developer community.',
+    tags:['GDSC','Google','Developer','Community']
   },
   {
     id:6, year:'2023',
-    title:'Freelance Pertama',
-    desc:'Mulai menerima project freelance — web development dan jasa akademis. Pertama kali menghasilkan pendapatan dari skill coding yang telah dipelajari.',
+    title:'First Freelance Project',
+    desc:'Started accepting freelance projects — web development and academic services. First time earning income from coding skills developed throughout university.',
     tags:['Freelance','Laravel','PHP','Web Development']
   },
   // {
   //   id:7, year:'2024',
-  //   title:'SIMARA — Skripsi S1',
-  //   desc:'Membangun Sistem Informasi Manajemen Rapat (SIMARA) sebagai project skripsi menggunakan Laravel dan metodologi Waterfall. Diuji dengan SUS Score tinggi dan black-box testing 100% pass.',
-  //   tags:['Laravel','Skripsi','SUS Testing','Waterfall','Binus']
+  //   title:'SIMARA — Undergraduate Thesis',
+  //   desc:'Built the Meeting Management Information System (SIMARA) as an undergraduate thesis project using Laravel and the Waterfall methodology. Tested with a high SUS Score and black-box testing 100% pass.',
+  //   tags:['Laravel','Thesis','SUS Testing','Waterfall','Binus']
   // },
   {
     id:7, year:'2024',
     title:'Head Division Techfest 2024',
-    desc:'Terpilih sebagai Head of Security & Equipment Division di Techfest 2024 (Jul 2024) — event besar yang diselenggarakan Himpunan Mahasiswa TI, melibatkan mahasiswa dari berbagai kampus Binus.',
+    desc:'Selected as Head of Security & Equipment Division at Techfest 2024 (Jul 2024) — a major event organized by the IT Student Association, involving students from various Binus campuses.',
     tags:['Leadership','Techfest','Binus','Event']
   },
   {
     id:8, year:'2024',
     title:'Team Projects',
-    desc:'Berkontribusi di dua project tim secara bersamaan — Sistem Arsip Terpadu dan Koperasi Management System. Makin solid dalam Git workflow, code review, dan kolaborasi tim.',
-    tags:['Laravel','Git','GitLab','Team','Arsip','Koperasi']
+    desc:'Contributed to two team projects simultaneously — Integrated Archive System and Koperasi Management System. Strengthened skills in Git workflow, code review, and team collaboration.',
+    tags:['Laravel','Git','GitLab','Team','Archive','Koperasi']
   },
   {
     id:9, year:'2024',
     title:'Virtual Based Exam Invigilator — PPNI',
-    desc:'Mengisi sesi Virtual Based memantau para perawat yang sedang mengikuti ujina Virtual Based di seluruh indonesia (PPNI) Des 2024.',
+    desc:'Served as a Virtual Based Exam invigilator, monitoring nurses taking the Virtual Based exam across Indonesia (PPNI) Dec 2024.',
     tags:['PPNI','Virtual Based Exam']
   },
   {
     id:10, year:'2025',
-    title:'Internship RSUD Tarakan Jakarta',
-    desc:'Internship sebagai Data Analyst di RSUD Tarakan Jakarta (Feb 2025 – Feb 2026). Menganalisis data rumah sakit dengan Excel & Python, merancang ERD & sequence diagram, membuat laporan visualisasi, dan membangun website booking meeting room.',
+    title:'Internship at RSUD Tarakan Jakarta',
+    desc:'Interned as a Data Analyst at RSUD Tarakan Jakarta (Feb 2025 – Feb 2026). Analyzed hospital data using Excel & Python, designed ERDs & sequence diagrams, created visualization reports, and built a meeting room booking website.',
     tags:['Data Analyst','Python','SQL','Excel','Healthcare','Laravel']
   },
   // {
   //   id:12, year:'2025',
   //   title:'SIMRS Temiang Avicenna',
-  //   desc:'Bergabung di project SIMRS enterprise Temiang Avicenna. Setup VPN untuk akses GitLab internal, mempelajari arsitektur .NET/C# dari codebase enterprise yang nyata, dan mulai contribute pengembangan fitur baru.',
+  //   desc:'Joined the Temiang Avicenna enterprise SIMRS project. Set up VPN for internal GitLab access, studied .NET/C# architecture from a real enterprise codebase, and started contributing to new feature development.',
   //   tags:['.NET','C#','Vue.js','Enterprise','VPN','GitLab']
   // },
 ]

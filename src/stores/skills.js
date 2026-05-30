@@ -6,36 +6,36 @@ const defaultSkills = [
   {
     id: 1, name: 'Backend & Framework', icon: '⚙',
     skills: [
-      { id:11, name:'Laravel', level:'ADVANCED', xp:85, detail:'Framework utama untuk web development. Dipakai intensif di SIMARA, Arsip Terpadu, Koperasi, Booking Meeting Room RSUD Tarakan, dan banyak project freelance.', projects:['SIMARA','Arsip Terpadu','Koperasi BE','RSUD Tarakan','Freelance'] },
-      { id:12, name:'PHP', level:'ADVANCED', xp:85, detail:'Bahasa backend utama sejak 2022. Comfortable dengan OOP, MVC pattern, dan REST API development.', projects:['SIMARA','RSUD Tarakan','Freelance'] },
-      { id:13, name:'.NET', level:'INTERMEDIATE', xp:50, detail:'Dipelajari untuk project SIMRS Temiang Avicenna. Aktif membaca codebase enterprise dan mulai develop fitur baru.', projects:['SIMRS Avicenna'] },
-      { id:14, name:'Bootstrap', level:'ADVANCED', xp:80, detail:'Dipakai untuk rapid prototyping dan semua project yang butuh responsive UI cepat.', projects:['SIMARA','RSUD Tarakan','Freelance'] },
+      { id:11, name:'Laravel', level:'ADVANCED', xp:85, detail:'Primary framework for web development. Used intensively in SIMARA, Arsip Terpadu, Koperasi, Booking Meeting Room RSUD Tarakan, and many freelance projects.', projects:['SIMARA','Arsip Terpadu','Koperasi BE','RSUD Tarakan','Freelance'] },
+      { id:12, name:'PHP', level:'ADVANCED', xp:85, detail:'Primary backend language since 2022. Comfortable with OOP, MVC pattern, and REST API development.', projects:['SIMARA','RSUD Tarakan','Freelance'] },
+      { id:13, name:'.NET', level:'INTERMEDIATE', xp:50, detail:'Learned for the SIMRS Temiang Avicenna project. Actively reading the enterprise codebase and starting to develop new features.', projects:['SIMRS Avicenna'] },
+      { id:14, name:'Bootstrap', level:'ADVANCED', xp:80, detail:'Used for rapid prototyping and all projects requiring fast responsive UI.', projects:['SIMARA','RSUD Tarakan','Freelance'] },
     ]
   },
   {
     id: 2, name: 'Frontend', icon: '◈',
     skills: [
-      { id:21, name:'HTML / CSS / JavaScript', level:'ADVANCED', xp:82, detail:'Solid di semantic HTML5, responsive CSS3 (Flexbox & Grid), dan vanilla JavaScript DOM manipulation. Foundation yang kuat untuk semua project web.', projects:['SIMARA','Arsip Terpadu','Portfolio','RSUD Tarakan'] },
-      { id:22, name:'Vue.js', level:'INTERMEDIATE', xp:65, detail:'Belajar Vue 3 Composition API untuk portfolio pribadi dan project SIMRS. Semakin nyaman dengan reactive state dan component-based architecture.', projects:['Portfolio','SIMRS Avicenna'] },
-      { id:23, name:'React', level:'INTERMEDIATE', xp:50, detail:'Familiar dengan React hooks, component lifecycle, dan state management dasar. Terus dikembangkan.', projects:['Personal Projects'] },
-      { id:24, name:'Figma', level:'INTERMEDIATE', xp:65, detail:'Dipakai untuk membuat wireframe, mockup UI/UX sebelum masuk ke tahap coding. Dipakai di SIMARA dan project internship RSUD Tarakan.', projects:['SIMARA','RSUD Tarakan'] },
-      { id:25, name:'Canva', level:'INTERMEDIATE', xp:68, detail:'Dipakai untuk desain presentasi, poster event, dan keperluan visual di organisasi dan freelance.', projects:['TFI','Techfest 2024','Freelance'] },
+      { id:21, name:'HTML / CSS / JavaScript', level:'ADVANCED', xp:82, detail:'Solid in semantic HTML5, responsive CSS3 (Flexbox & Grid), and vanilla JavaScript DOM manipulation. Strong foundation for all web projects.', projects:['SIMARA','Arsip Terpadu','Portfolio','RSUD Tarakan'] },
+      { id:22, name:'Vue.js', level:'INTERMEDIATE', xp:65, detail:'Learning Vue 3 Composition API for personal portfolio and SIMRS project. Increasingly comfortable with reactive state and component-based architecture.', projects:['Portfolio','SIMRS Avicenna'] },
+      { id:23, name:'React', level:'INTERMEDIATE', xp:50, detail:'Familiar with React hooks, component lifecycle, and basic state management. Continuously being developed.', projects:['Personal Projects'] },
+      { id:24, name:'Figma', level:'INTERMEDIATE', xp:65, detail:'Used to create wireframes and UI/UX mockups before the coding phase. Applied in SIMARA and the RSUD Tarakan internship project.', projects:['SIMARA','RSUD Tarakan'] },
+      { id:25, name:'Canva', level:'INTERMEDIATE', xp:68, detail:'Used for designing presentations, event posters, and visual materials for organizations and freelance work.', projects:['TFI','Techfest 2024','Freelance'] },
     ]
   },
   {
     id: 3, name: 'Data & Database', icon: '▣',
     skills: [
-      { id:31, name:'SQL / MySQL', level:'ADVANCED', xp:78, detail:'Comfortable dengan query kompleks, JOIN, agregasi, stored procedure, migration dan seeder di Laravel. Dipakai intensif di internship RSUD Tarakan untuk analisis data rumah sakit.', projects:['SIMARA','Koperasi BE','RSUD Tarakan','Arsip Terpadu'] },
-      { id:32, name:'Python', level:'INTERMEDIATE', xp:70, detail:'Dipakai untuk data processing, visualisasi data, dan reporting di internship RSUD Tarakan Jakarta. Familiar dengan pandas dan matplotlib untuk analisis data healthcare.', projects:['RSUD Tarakan','Data Analysis'] },
-      { id:33, name:'Excel / Data Analysis', level:'INTERMEDIATE', xp:72, detail:'Analisis data rumah sakit secara mendalam menggunakan Excel. Membuat laporan terstruktur, pivot table, dan identifikasi tren data pasien & operasional di RSUD Tarakan.', projects:['RSUD Tarakan'] },
+      { id:31, name:'SQL / MySQL', level:'ADVANCED', xp:78, detail:'Comfortable with complex queries, JOINs, aggregations, stored procedures, migrations and seeders in Laravel. Used intensively during the RSUD Tarakan internship for hospital data analysis.', projects:['SIMARA','Koperasi BE','RSUD Tarakan','Arsip Terpadu'] },
+      { id:32, name:'Python', level:'INTERMEDIATE', xp:70, detail:'Used for data processing, data visualization, and reporting during the RSUD Tarakan Jakarta internship. Familiar with pandas and matplotlib for healthcare data analysis.', projects:['RSUD Tarakan','Data Analysis'] },
+      { id:33, name:'Excel / Data Analysis', level:'INTERMEDIATE', xp:72, detail:'In-depth hospital data analysis using Excel. Created structured reports, pivot tables, and identified patient & operational data trends at RSUD Tarakan.', projects:['RSUD Tarakan'] },
     ]
   },
   {
     id: 4, name: 'Programming Languages', icon: '◉',
     skills: [
-      { id:41, name:'Java', level:'INTERMEDIATE', xp:60, detail:'Dipelajari intensif di perkuliahan Binus University. Familiar dengan OOP, struktur data, dan algoritma menggunakan Java.', projects:['Binus University'] },
-      { id:42, name:'C / C++', level:'INTERMEDIATE', xp:55, detail:'Dipelajari di perkuliahan. Comfortable dengan pointer, struct, memory management, dan implementasi algoritma dasar.', projects:['Binus University'] },
-      { id:43, name:'Git / GitLab', level:'INTERMEDIATE', xp:70, detail:'Dipakai setiap hari untuk version control. Familiar dengan branching strategy, merge conflict resolution, dan kolaborasi tim via GitLab internal.', projects:['Semua Project'] },
+      { id:41, name:'Java', level:'INTERMEDIATE', xp:60, detail:'Studied intensively during coursework at Binus University. Familiar with OOP, data structures, and algorithms using Java.', projects:['Binus University'] },
+      { id:42, name:'C / C++', level:'INTERMEDIATE', xp:55, detail:'Studied during coursework. Comfortable with pointers, structs, memory management, and basic algorithm implementation.', projects:['Binus University'] },
+      { id:43, name:'Git / GitLab', level:'INTERMEDIATE', xp:70, detail:'Used daily for version control. Familiar with branching strategies, merge conflict resolution, and team collaboration via internal GitLab.', projects:['All Projects'] },
     ]
   },
 ]
