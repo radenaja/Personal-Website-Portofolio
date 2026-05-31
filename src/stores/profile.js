@@ -6,11 +6,11 @@ const defaultProfile = {
   photoUrl: 'https://res.cloudinary.com/doynrjor3/image/upload/v1776520939/raden_qu5srx.jpg',
   displayName: 'RADEN',
   fullName: 'Raden Aradeya Risqi Jagat Pertala',
-  classTitle: 'DATA ANALYST | FRONTEND WEB DEV',
+  classTitle: 'DATA ANALYST | WEB DEVELOPER',
   level: 22,
   xp: 2450,
   xpMax: 3000,
-  bio: 'Experienced as Data Analyst (Data Processing / Visualization / Reporting) and Frontend Developer (UI/UX Implementation / Web Development). Passionate about turning raw data into actionable insights and building user-friendly interfaces. Highly curious, adaptive, and eager to continuously learn in both analytics and development fields.',
+  bio: 'Experienced Data Analyst and Web Developer skilled in Laravel, React, Python, and SQL, with a strong foundation in data processing, visualization, and full-stack web development. Experienced in real-world project development and healthcare data analysis. Highly adaptive, collaborative, and eager to grow in a professional environment.',
   stats: [
     { name: 'Laravel / PHP', value: 85, color: '#f97316' },
     { name: 'HTML / CSS / JS', value: 82, color: '#8b5cf6' },

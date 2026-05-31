@@ -252,10 +252,11 @@ function doResetDefault() {
   // Clear all localStorage keys used by the app
   const keys = [
     'raden_profile_v3', 'raden_profile_v2', 'raden_profile',
-    'raden_projects_v3', 'raden_projects_v2', 'raden_projects',
-    'raden_skills_v2', 'raden_skills',
-    'raden_achievements_v2', 'raden_achievements',
-    'raden_timeline_v2', 'raden_timeline',
+    'raden_projects_v4', 'raden_projects_v3', 'raden_projects_v2', 'raden_projects',
+    'raden_skills_v3', 'raden_skills_v2', 'raden_skills',
+    'raden_achievements_v3', 'raden_achievements_v2', 'raden_achievements',
+    'raden_timeline_v3', 'raden_timeline_v2', 'raden_timeline',
+    'raden_certifications_v1',
   ]
   keys.forEach(k => localStorage.removeItem(k))
   confirmReset.value = false
@@ -273,7 +274,7 @@ function removeStat(i) {
 
 // Typewriter
 const phrases = [
-  'Data Analyst | Frontend Web Dev...',
+  'Data Analyst | Web Developer...',
   'Turning raw data into insights...',
   'Building web apps since 2022...',
   'Curious, adaptive, always learning...',

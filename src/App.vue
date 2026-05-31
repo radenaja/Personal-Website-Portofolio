@@ -19,6 +19,7 @@
         <HeroSection />
         <ProjectsSection />
         <AchievementsSection />
+        <CertificationsSection />
         <SkillsContact />
       </main>
     </template>
@@ -34,6 +35,7 @@ import NavBar from './components/NavBar.vue'
 import HeroSection from './components/HeroSection.vue'
 import ProjectsSection from './components/ProjectsSection.vue'
 import AchievementsSection from './components/AchievementsSection.vue'
+import CertificationsSection from './components/CertificationsSection.vue'
 import SkillsContact from './components/SkillsContact.vue'
 
 const loaded = ref(false)

@@ -1,6 +1,6 @@
 import { ref } from 'vue'
 
-const STORAGE_KEY = 'raden_timeline_v2'
+const STORAGE_KEY = 'raden_timeline_v3'
 
 const defaultTimeline = [
   {
@@ -13,7 +13,7 @@ const defaultTimeline = [
     id:2, year:'2022',
     title:'Enrolled at Binus University',
     desc:'Accepted into the Computer Science program at Binus University (Sep 2022). Started seriously learning programming — C/C++, Java, HTML/CSS/JavaScript, SQL.',
-    tags:['Binus','Computer Science','C/C++, Java, HTML/CSS/JavaScript, SQL']
+    tags:['Binus','Computer Science','C/C++','Java','HTML/CSS/JavaScript','SQL']
   },
   {
     id:3, year:'2022',
@@ -39,12 +39,6 @@ const defaultTimeline = [
     desc:'Started accepting freelance projects — web development and academic services. First time earning income from coding skills developed throughout university.',
     tags:['Freelance','Laravel','PHP','Web Development']
   },
-  // {
-  //   id:7, year:'2024',
-  //   title:'SIMARA — Undergraduate Thesis',
-  //   desc:'Built the Meeting Management Information System (SIMARA) as an undergraduate thesis project using Laravel and the Waterfall methodology. Tested with a high SUS Score and black-box testing 100% pass.',
-  //   tags:['Laravel','Thesis','SUS Testing','Waterfall','Binus']
-  // },
   {
     id:7, year:'2024',
     title:'Head Division Techfest 2024',
@@ -53,15 +47,15 @@ const defaultTimeline = [
   },
   {
     id:8, year:'2024',
-    title:'Team Projects',
-    desc:'Contributed to two team projects simultaneously — Integrated Archive System and Koperasi Management System. Strengthened skills in Git workflow, code review, and team collaboration.',
-    tags:['Laravel','Git','GitLab','Team','Archive','Koperasi']
+    title:'Arsip Terpadu — Team Project',
+    desc:'Contributed to an Integrated Archive Management System as part of a team project. Built file preview modal for PDF and image files, set up GitLab repository, and created Excel import templates for member and user data.',
+    tags:['Laravel','Git','GitLab','Team','Archive','PHP']
   },
   {
     id:9, year:'2024',
-    title:'Virtual Based Exam Invigilator — PPNI',
-    desc:'Served as a Virtual Based Exam invigilator, monitoring nurses taking the Virtual Based exam across Indonesia (PPNI) Dec 2024.',
-    tags:['PPNI','Virtual Based Exam']
+    title:'KopkarCwi — Freelance Client Project',
+    desc:'Developed a full-stack Cooperative Management System for a real client, PT. Crown Worldwide Indonesia. Built and deployed the system at kopkarcwi.com with features including member management, savings, loan payment workflows, PDF export, and JWT-based authentication.',
+    tags:['Laravel','React','MySQL','Tailwind CSS','GitLab','Freelance','Koperasi']
   },
   {
     id:10, year:'2025',
@@ -69,12 +63,12 @@ const defaultTimeline = [
     desc:'Interned as a Data Analyst at RSUD Tarakan Jakarta (Feb 2025 – Feb 2026). Analyzed hospital data using Excel & Python, designed ERDs & sequence diagrams, created visualization reports, and built a meeting room booking website.',
     tags:['Data Analyst','Python','SQL','Excel','Healthcare','Laravel']
   },
-  // {
-  //   id:12, year:'2025',
-  //   title:'SIMRS Temiang Avicenna',
-  //   desc:'Joined the Temiang Avicenna enterprise SIMRS project. Set up VPN for internal GitLab access, studied .NET/C# architecture from a real enterprise codebase, and started contributing to new feature development.',
-  //   tags:['.NET','C#','Vue.js','Enterprise','VPN','GitLab']
-  // },
+  {
+    id:11, year:'2026',
+    title:'SIMARA — Thesis Defense',
+    desc:'Successfully defended undergraduate thesis SIMARA (Sistem Informasi Manajemen Rapat Berbasis Digital) at Binus University. Passed with grade B, May 2026. Built with Laravel, Vue.js, MySQL, and Tailwind CSS using Waterfall methodology. High SUS Score, black-box testing 100% pass. Already live at my-simara.my.id.',
+    tags:['Laravel','Vue.js','MySQL','Tailwind CSS','Thesis','Binus','SIMARA','2026']
+  },
 ]
 
 function load() {
