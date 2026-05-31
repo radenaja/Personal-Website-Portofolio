@@ -89,7 +89,7 @@
 
           <div class="form-grid">
             <div class="form-field full"><label>Project Name *</label><input v-model="form.name" placeholder="e.g. SIMARA" /></div>
-            <div class="form-field"><label>Type</label><select v-model="form.type"><option>WEB APP</option><option>SISTEM INFORMASI</option><option>PERSONAL</option><option>FREELANCE</option></select></div>
+            <div class="form-field"><label>Type</label><select v-model="form.type"><option>WEB APP</option><option>INFORMATION SYSTEM</option><option>PERSONAL</option><option>FREELANCE</option></select></div>
             <div class="form-field"><label>Status</label><select v-model="form.status"><option>COMPLETED</option><option>IN PROGRESS</option></select></div>
             <div class="form-field"><label>Year</label><input v-model="form.year" placeholder="2024" /></div>
             <div class="form-field full"><label>Short Description</label><input v-model="form.shortDesc" placeholder="One-liner description" /></div>
@@ -156,7 +156,7 @@ const activePhoto = ref(0)
 const showForm = ref(false)
 const editingId = ref(null)
 const deleteTarget = ref(null)
-const filters = ['ALL', 'WEB APP', 'SISTEM INFORMASI', 'PERSONAL', 'FREELANCE']
+const filters = ['ALL', 'WEB APP', 'INFORMATION SYSTEM', 'PERSONAL', 'FREELANCE']
 
 const emptyForm = () => ({ name:'', type:'WEB APP', status:'COMPLETED', year:'', shortDesc:'', problem:'', solution:'', result:'', techRaw:'', demo:'', github:'', photos:[] })
 const form = ref(emptyForm())

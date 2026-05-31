@@ -6,7 +6,7 @@ const defaultProjects = [
   {
     id: 1,
     name: 'SIMARA',
-    type: 'SISTEM INFORMASI',
+    type: 'INFORMATION SYSTEM',
     status: 'COMPLETED',
     year: '2026',
     shortDesc: 'Web-based Meeting Management Information System — undergraduate thesis at Binus University. Already live!',
