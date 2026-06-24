@@ -58,7 +58,7 @@
             <div class="contact-link"><span class="link-icon">📍</span><span>{{ profile.location }}</span></div>
             <a class="contact-link" :href="profile.github" target="_blank"><span class="link-icon">GH</span><span>{{ profile.github.replace('https://','') }}</span></a>
             <a class="contact-link" :href="profile.linkedin" target="_blank"><span class="link-icon">LI</span><span>LinkedIn Profile</span></a>
-            <a class="contact-link" :href="profile.personalDrive" target="_blank" v-if="profile.personalDrive"><span class="link-icon">GD</span><span>Personal Drive</span></a>
+            <!-- <a class="contact-link" :href="profile.personalDrive" target="_blank" v-if="profile.personalDrive"><span class="link-icon">GD</span><span>Personal Drive</span></a> -->
           </div>
         </div>
         <div class="contact-right">

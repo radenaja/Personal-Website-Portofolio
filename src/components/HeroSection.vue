@@ -148,7 +148,7 @@
           <div class="form-field"><label>Email</label><input v-model="editForm.email" placeholder="raden@email.com" /></div>
           <div class="form-field"><label>GitHub URL</label><input v-model="editForm.github" placeholder="https://github.com/username" /></div>
           <div class="form-field"><label>LinkedIn URL</label><input v-model="editForm.linkedin" placeholder="https://linkedin.com/in/username" /></div>
-          <div class="form-field"><label>Personal Drive URL</label><input v-model="editForm.personalDrive" placeholder="https://drive.google.com/drive/folders/..." /></div>
+          <!-- <div class="form-field"><label>Personal Drive URL</label><input v-model="editForm.personalDrive" placeholder="https://drive.google.com/drive/folders/..." /></div> -->
           <div class="form-field">
             <label>CV / Resume</label>
             <div class="cv-manager">
