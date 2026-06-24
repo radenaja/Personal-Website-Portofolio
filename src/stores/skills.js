@@ -1,6 +1,6 @@
 import { ref } from 'vue'
 
-const STORAGE_KEY = 'raden_skills_v3'
+const STORAGE_KEY = 'raden_skills'
 
 const defaultSkills = [
   {

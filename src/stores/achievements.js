@@ -1,6 +1,6 @@
 import { ref } from 'vue'
 
-const STORAGE_KEY = 'raden_achievements_v3'
+const STORAGE_KEY = 'raden_achievements'
 
 const defaultAchievements = [
   { id:1,  icon:'🎓', name:'Computer Science Graduate',      desc:'Graduated S1 Computer Science at Binus University — GPA 3.42. Thesis: SIMARA, passed with grade B (May 2026)',  year:'2026', locked:false },

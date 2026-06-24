@@ -251,12 +251,12 @@ const confirmReset = ref(false)
 function doResetDefault() {
   // Clear all localStorage keys used by the app
   const keys = [
-    'raden_profile_v3', 'raden_profile_v2', 'raden_profile',
-    'raden_projects_v4', 'raden_projects_v3', 'raden_projects_v2', 'raden_projects',
-    'raden_skills_v3', 'raden_skills_v2', 'raden_skills',
-    'raden_achievements_v3', 'raden_achievements_v2', 'raden_achievements',
-    'raden_timeline_v3', 'raden_timeline_v2', 'raden_timeline',
-    'raden_certifications_v1',
+    'raden_profile',
+    'raden_projects',
+    'raden_skills',
+    'raden_achievements',
+    'raden_timeline',
+    'raden_certifications',
   ]
   keys.forEach(k => localStorage.removeItem(k))
   confirmReset.value = false

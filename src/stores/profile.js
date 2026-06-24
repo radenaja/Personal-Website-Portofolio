@@ -1,6 +1,6 @@
 import { ref } from 'vue'
 
-const STORAGE_KEY = 'raden_profile_v3'
+const STORAGE_KEY = 'raden_profile'
 
 const defaultProfile = {
   photoUrl: 'https://res.cloudinary.com/doynrjor3/image/upload/v1776520939/raden_qu5srx.jpg',

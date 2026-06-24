@@ -1,6 +1,6 @@
 import { ref } from 'vue'
 
-const STORAGE_KEY = 'raden_timeline_v3'
+const STORAGE_KEY = 'raden_timeline'
 
 const defaultTimeline = [
   {

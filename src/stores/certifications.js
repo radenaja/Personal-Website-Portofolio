@@ -1,6 +1,6 @@
 import { ref } from 'vue'
 
-const STORAGE_KEY = 'raden_certifications_v1'
+const STORAGE_KEY = 'raden_certifications'
 
 const defaultCertifications = [
   {
