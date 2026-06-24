@@ -13,7 +13,7 @@
         <a href="#certifications" class="nav-link">CERTIFICATIONS</a>
         <a href="#skills" class="nav-link">SKILLS</a>
         <a href="#contact" class="nav-link">CONTACT</a>
-        <a href="/Personal-Website-Portofolio/cv-raden-aradeya-risqi-jagat-pertala.pdf" download="CV_Raden_Aradeya_Risqi_Jagat_Pertala.pdf" target="_blank" class="nav-link cv-link">CV ↓</a>
+        <!-- <a href="/Personal-Website-Portofolio/cv-raden-aradeya-risqi-jagat-pertala.pdf" download="CV_Raden_Aradeya_Risqi_Jagat_Pertala.pdf" target="_blank" class="nav-link cv-link">CV ↓</a> -->
       </div>
 
       <div class="nav-right">
@@ -33,7 +33,7 @@
       <a href="#certifications" class="mobile-link" @click="menuOpen = false">CERTIFICATIONS</a>
       <a href="#skills" class="mobile-link" @click="menuOpen = false">SKILLS</a>
       <a href="#contact" class="mobile-link" @click="menuOpen = false">CONTACT</a>
-      <a href="/Personal-Website-Portofolio/cv-raden-aradeya-risqi-jagat-pertala.pdf" download="CV_Raden_Aradeya_Risqi_Jagat_Pertala.pdf" target="_blank" class="mobile-link cv-mobile" @click="menuOpen = false">DOWNLOAD CV ↓</a>
+      <!-- <a href="/Personal-Website-Portofolio/cv-raden-aradeya-risqi-jagat-pertala.pdf" download="CV_Raden_Aradeya_Risqi_Jagat_Pertala.pdf" target="_blank" class="mobile-link cv-mobile" @click="menuOpen = false">DOWNLOAD CV ↓</a> -->
     </div>
   </nav>
 </template>

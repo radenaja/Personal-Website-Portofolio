@@ -75,7 +75,7 @@
         <div class="hero-ctas">
           <a href="#projects" class="btn-pixel">VIEW QUESTS</a>
           <a href="#contact" class="btn-pixel crimson">CONTACT ME</a>
-          <a :href="profile.cvUrl" target="_blank" download="CV_Raden_Aradeya_Risqi_Jagat_Pertala.pdf" class="btn-pixel" style="color:var(--accent-gold);border-color:var(--accent-gold)">DOWNLOAD CV</a>
+          <!-- <a :href="profile.cvUrl" target="_blank" download="CV_Raden_Aradeya_Risqi_Jagat_Pertala.pdf" class="btn-pixel" style="color:var(--accent-gold);border-color:var(--accent-gold)">DOWNLOAD CV</a> -->
         </div>
       </div>
     </div>
